@@ -1,0 +1,81 @@
+baseURL: /
+languageCode: en-us
+title: Hugo Parsa Forestry Starter
+
+# Theme settings
+module:
+  imports:
+   - path: github.com/themefisher/parsa-hugo
+     mounts:
+     - source: layouts
+       target: layouts
+     - source: assets
+       target: assets
+     - source: static
+       target: static
+     - source: exampleSite/static/images
+       target: static/images
+
+summaryLength: '10'
+paginate: 6
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+params:
+  plugins:
+    css:
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/slick/slick.css
+      - link: plugins/themify-icons/themify-icons.css
+    js:
+      - link: plugins/jQuery/jquery.min.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+      - link: plugins/headroom/headroom.js
+      - link: plugins/instafeed/instafeed.min.js
+      - link: plugins/masonry/masonry.js
+      - link: plugins/reading-time/readingTime.min.js
+      - link: plugins/smooth-scroll/smooth-scroll.js
+      - link: plugins/search/fuse.min.js
+      - link: plugins/search/mark.js
+      - link: plugins/search/search.js
+  logo: images/logo.png
+  home: Home
+  layout: '1'
+  description: This is meta description
+  preloader: true
+  search: true
+  author: Themefisher
+  author_image: images/banner-img.png
+  bio: >-
+    I’m a Freelance Interactive Art Director based in France. Focusing across
+    branding and identity, digital and print.
+  mobile: +90 000 333 22
+  email: exmaple@ymail.com
+  address: 6 rip carl Avenue CA 90733
+  contact_form_action: '#'
+  google_analitycs_id: Your ID
+  copyright: 'Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)'
+  instafeed:
+    enable: true
+    access_token: >-
+      IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn
+  social:
+    - icon: ti-facebook
+      URL: '#'
+    - icon: ti-twitter-alt
+      URL: '#'
+    - icon: ti-linkedin
+      URL: '#'
+    - icon: ti-github
+      URL: '#'
+menu:
+  main:
+    - name: About
+      URL: about
+      weight: 2
+    - name: Contact
+      URL: contact
+      weight: 3
