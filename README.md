@@ -37,9 +37,7 @@ That's it, now your site gets deployed automatically on `git push` or when savin
 ## Development
 
 ```bash
-# clone the repository
-git clone --recurse-submodules git@github.com:forestryio/hugo-parsa-forestry.git
-
+# clone your repository
 # cd in the project directory
 cd hugo-parsa-forestry
 
