@@ -6,11 +6,11 @@
 
 Import to Forestry in one single click!
 
-[![Import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/hugo-parsa-forestry&engine=hugo&version=0.72.0)
+[![Import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/hugo-parsa-forestry&engine=hugo&version=0.74.3)
 
 ## Prerequisites
 
-- Hugo > 0.62.2
+- Hugo > 0.62.2 (tested with 0.74.3)
 
 ## Content Management
 
@@ -30,7 +30,7 @@ Import your site in [Netlify](https://netlify.com)
 1. Create a new site in Netlify and import your repository.
 2. Set the build command to: `hugo --gc --minify`
 3. Set the publish directory to: `public`
-4. Set `HUGO_VERSION` to `0.72.0`
+4. Set `HUGO_VERSION` to `0.74.3`
 
 That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
 
