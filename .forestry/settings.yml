@@ -22,7 +22,7 @@ sections:
   create: none
   match: "*"
 - type: document
-  path: config.toml
+  path: config.yaml
   label: Configuration
 upload_dir: static/images
 public_path: "/images"
@@ -32,7 +32,7 @@ file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.74.3
+  - HUGO_VERSION=0.75.1
   preview_output_directory: public
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
